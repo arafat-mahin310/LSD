@@ -10,7 +10,7 @@ import string,random
 #Main_Menu:-
 def Main():
     os.system('clear')
-    print('[•] This Script Maked By BILAL-HAIDER-ID\n[•] Copyright © : Bilal-XD\n-------------------------------')
+    print('[•] This Script Maked By Mahin-HAIDER-ID\n[•] Copyright © : mahin\n-------------------------------')
     print('[1] Dump Random New UID (10008)')
     print('[2] Dump Random Old UID (100000)')
     print('[0] Exit Menu ')
@@ -50,8 +50,8 @@ def random_new_dump():
         dumpp = open(save_file,'w')
         for bilal in user:
             uid = code+bilal
-            dumpp.write(uid+' | '+'AKING_RANDOM_DUMP'+'\n')
-            print(uid+' | '+'AKING_RANDOM_DUMP')
+            dumpp.write(uid+' | '+'Mahin_RANDOM_DUMP'+'\n')
+            print(uid+' | '+'Mahin_RANDOM_DUMP')
             time.sleep(0.05)
         dumpp.close()
         print("Dumping Done ")
